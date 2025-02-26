@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu lạc bộ tin học</title>
+    <style>
+        body{
+            background-image: url("https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        }
+        h1 {
+        }
+        p {
+            text-indent: 15px;
+        }
+        table {
+            border: solid 1px black;
+            border-collapse: collapse;
+        }
+        td, th {
+        
+            border: solid 1px black;
+            padding: 5px;
+        }
+        .dshd, .tvcc {
+            
+            border: 2px solid cyan;
+            border-radius: 25px;
+            display: inline-block;
+            flex: 1;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Câu lạc bộ tin học NTR TechClub</h1>
+    <p>NTR TechClub là nơi giao lưu, học hỏi và phát triển kỹ năng về công nghệ thông tin dành cho các bạn đam mê lập trình, bảo mật, AI, và các công nghệ mới.</p>
+    <div class="dshd">
+        <h2>Danh sách buổi sinh hoạt</h2>
+        <table>
+            <tr><th>Ngày</th><th>Chủ đề</th></tr>
+            <tr><td>05/03/2025</td><td>Giới thiệu CLB</td></tr>
+            <tr><td>12/03/2025</td><td>Git & GitHub cơ bản</td></tr>
+            <tr><td>19/03/2025</td><td>Lập trình Web</td></tr>
+            <tr><td>26/03/2025</td><td>AI & Machine Learning</td></tr>
+        </table>
+    </div>
+    <div class="tvcc">
+        <h2>Thành viên chủ chốt</h2>
+        <table>
+            <tr><th>Tên</th><th>Vai trò</th></tr>
+            <tr><td>Nguyễn Văn Trãi</td><td>Chủ nhiệm</td></tr>
+            <tr><td>Nguyễn Đăng Vững</td><td>Phó chủ nhiệm</td></tr>
+            <tr><td>Trần Văn Thành</td><td>Trưởng ban kỹ thuật</td></tr>
+            <tr><td>Dương Công Tài</td><td>Tôi đẹp trai nên tôi ở đây </td></tr>
+        </table>
+    </div>
+    <div class="dangky">
+        <h2>Đăng ký vào câu lạc bộ NTR TechClub ngay!!</h2>
+        <form action="#">
+            <label for="hovaten">Họ và tên: </label>
+            <input id="hovaten" type="text" required>
+            <label for="ngaysinh">Ngày tháng năm sinh: </label>
+            <input id="ngaysinh" type="date"required>
+            <label for="gioitinh">Giới tính: </label>
+            <select name="uhh" id="gioitinh"required>
+                <option value="nam">Nam</option>
+                <option value="nu">Nữ</option>
+            </select>
+            <label for="lydo">Lý do tham gia</label>
+            <textarea id="lydo"></textarea>
+            <button type="submit">Đăng ký</button>
+        </form>
+    </div>
+    
+</body>
+</html>
